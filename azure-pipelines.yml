@@ -21,6 +21,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: '$(Build.ArtifactStagingDirectory)/Himalaya-Build'
     ArtifactName: 'frontendartifact'
     publishLocation: 'Container'
